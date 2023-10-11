@@ -1,0 +1,539 @@
+Data Dictionary for my subset of the NY DOH's Hospital Inpatient Discharges (SPARCS De-Identified): 2021
+
+Full data dictionary for the original, broader dataset can be downloaded here: https://health.data.ny.gov/api/views/tg3i-cinn/files/65ab78dc-9c92-4357-aacb-3fb68f85b61f?download=true&filename=NYSDOH_SPARCS_De-Identified_Data_Dictionary_2021.pdf
+
+---------------
+
+hospital_service_area: A description of the Health Service Area (HSA) in which the hospital is located. Blank for enhanced de-identification records. TYPE: str
+        New York City
+		Long Island
+		Hudson Valley
+		nan
+		Capital/Adirond
+		Finger Lakes
+		Central NY
+		Western NY
+		Southern Tier
+
+hospital_county: A description of the county in which the hospital is located. Blank for records with enhanced de-identification. TYPE: str
+        Manhattan
+		Queens
+		Bronx
+		Kings
+		Nassau
+		Westchester
+		nan
+		Otsego
+		Rockland
+		Ontario
+		Monroe
+		Albany
+		Onondaga
+		Orange
+        Sullivan
+		Warren
+		Cortland
+		Steuben
+		Allegany
+		Schenectady
+		Oneida
+		Broome
+		Suffolk
+		Madison
+		Richmond
+		Chautauqua
+		Oswego
+		Putnam
+		Jefferson
+		Dutchess
+		Livingston
+		Franklin
+		Tompkins
+		St Lawrence
+		Ulster
+		Montgomery
+		Cattaraugus
+		Niagara
+		Saratoga
+		Wyoming
+		Chemung
+		Erie
+		Chenango
+		Cayuga
+		Wayne
+		Genesee
+		Fulton
+		Rensselaer
+		Clinton
+
+operating_certificate_number: The facility Operating Certificate Number as assigned by NYS Department of Health. Blank for records with enhanced de-identification. TYPE: float
+        7002024.0
+		7003000.0
+		7000008.0
+		7001009.0
+		7002009.0
+		7001016.0
+		7000006.0
+		7002053.0
+		7001021.0
+		2908000.0
+		7003010.0
+		5901000.0
+		nan
+		7002021.0
+		3824000.0
+		7002032.0
+		7002001.0
+		7000024.0
+		2950002.0
+		7001037.0
+		4324000.0
+		7000002.0
+		7001045.0
+		7003007.0
+		3429000.0
+		2701005.0
+		2701001.0
+		5904001.0
+		7001003.0
+		7000001.0
+		101000.0
+		3301008.0
+		3523000.0
+		5263000.0
+		5601000.0
+		1101000.0
+		5001000.0
+		228000.0
+		7001020.0
+		4601001.0
+		5932000.0
+		3202003.0
+		301001.0
+		5155000.0
+		5154000.0
+		2950001.0
+		7003004.0
+		101004.0
+		7002017.0
+		2601001.0
+		2951001.0
+		7004003.0
+		602001.0
+		3702000.0
+		3950000.0
+		2201000.0
+		1327000.0
+		2527000.0
+		5922000.0
+		5153000.0
+		7004010.0
+		5957001.0
+		1624000.0
+		5151001.0
+		3301007.0
+		5401001.0
+		4429000.0
+		2238700.0
+		5501001.0
+		7001024.0
+		2801001.0
+		7003001.0
+		601000.0
+		401001.0
+		7003003.0
+		3102000.0
+		7001035.0
+		4501000.0
+		3522000.0
+		6027000.0
+		701000.0
+		3201002.0
+		7001002.0
+		5902001.0
+		4401000.0
+		5154001.0
+		1401008.0
+		1401013.0
+		824000.0
+		4329000.0
+		303001.0
+		1302001.0
+		3301003.0
+		501000.0
+		5820000.0
+		1801000.0
+		2754001.0
+		7000014.0
+		5907001.0
+		2701003.0
+		1701000.0
+		7002054.0
+		4102002.0
+		5149001.0
+		2909000.0
+		5157003.0
+		1623001.0
+		1401014.0
+		3529000.0
+		5920000.0
+		3121001.0
+		901001.0
+
+permanent_facility_id: Permanent Facility Identifier. Blank for records with enhanced de-identification. TYPE: float
+		nan
+        1456.0
+		1626.0
+		1172.0
+		1294.0
+		1445.0
+		1301.0
+		3058.0
+		1304.0
+		1306.0
+		511.0
+		1463.0
+		1637.0
+		1039.0
+		1454.0
+		746.0
+		1466.0
+		1168.0
+		1438.0
+		1186.0
+		528.0
+		1320.0
+		776.0
+		1165.0
+		1692.0
+		1633.0
+		678.0
+		413.0
+		409.0
+		1072.0
+		1288.0
+		1178.0
+		1.0
+		636.0
+		699.0
+		971.0
+		1005.0
+		158.0
+		866.0
+		39.0
+		1305.0
+		848.0
+		1129.0
+		599.0
+		43.0
+		938.0
+		924.0
+		527.0
+		1638.0
+		5.0
+		1450.0
+		397.0
+		541.0
+		1740.0
+		103.0
+		727.0
+		752.0
+		367.0
+		192.0
+		393.0
+		1122.0
+		913.0
+		1738.0
+		1139.0
+		325.0
+		245.0
+		628.0
+		977.0
+		815.0
+		379.0
+		990.0
+		1635.0
+		484.0
+		1630.0
+		1628.0
+		98.0
+		66.0
+		1629.0
+		574.0
+		1318.0
+		818.0
+		889.0
+		694.0
+		1153.0
+		116.0
+		589.0
+		1286.0
+		1045.0
+		798.0
+		925.0
+		213.0
+		218.0
+		128.0
+		779.0
+		58.0
+		181.0
+		630.0
+		85.0
+		1028.0
+		339.0
+		471.0
+		1176.0
+		1097.0
+		411.0
+		330.0
+		756.0
+		896.0
+		513.0
+		943.0
+		324.0
+		208.0
+		3067.0
+		704.0
+		1117.0
+		1464.0
+		583.0
+		292.0
+		1437.0
+		1458.0
+		3975.0
+		135.0
+
+facility_name: The name of the facility where services were performed based on the Permanent Facility Identifier (PFI), as maintained by the NYSDOH Division of Health Facility Planning. For records with enhanced de-identification, ‘Redacted for Confidentiality’ appears. TYPE: str
+        Mount Sinai Hospital
+		Elmhurst Hospital Center
+		Lincoln Medical & Mental Health Center
+		Coney Island Hospital
+		Harlem Hospital Center
+		Kings County Hospital Center
+		Montefiore Med Center - Jack D Weiler Hosp of A Einstein College Div
+		NYU Langone Hospital-Brooklyn
+		New York - Presbyterian Brooklyn Methodist Hospital
+		NYU Langone Hospital-Long Island
+		NYU Langone Hospitals
+		New York - Presbyterian/Queens
+		NewYork-Presbyterian/Hudson Valley Hospital
+		Redacted for Confidentiality
+		Metropolitan Hospital Center
+		Mary Imogene Bassett Hospital
+		Mount Sinai West
+		Montefiore Medical Center-Wakefield Hospital
+		Bellevue Hospital Center
+		North Central Bronx Hospital
+		Nassau University Medical Center
+		University Hospital of Brooklyn
+		Montefiore Nyack
+		Jacobi Medical Center
+		Woodhull Medical & Mental Health Center
+		Queens Hospital Center
+		F.F. Thompson Hospital
+		Strong Memorial Hospital
+		Highland Hospital
+		Montefiore New Rochelle Hospital
+		Brooklyn Hospital Center - Downtown Campus
+		BronxCare Hospital Center
+		Albany Medical Center Hospital
+		Crouse Hospital
+		Garnet Health Medical Center
+		Garnet Health Medical Center - Catskills
+		Glens Falls Hospital
+		Guthrie Cortland Medical Center
+		Corning Hospital
+		Memorial Hosp of Wm F & Gertrude F Jones A/K/A Jones Memorial Hosp
+		Maimonides Medical Center
+		Ellis Hospital - Bellevue Woman's Care Center Division
+		Phelps Hospital
+		Faxton-St Lukes Healthcare St Lukes Division
+		Our Lady of Lourdes Memorial Hospital
+		Peconic Bay Medical Center
+		South Shore University Hospital
+		Mount Sinai South Nassau
+		Long Island Jewish Forest Hills
+		St. Peter's Hospital
+		Lenox Hill Hospital
+		Oneida Health Hospital
+		North Shore University Hospital
+		Staten Island University Hosp-North
+		UPMC Chautauqua at WCA
+		Oswego Hospital
+		Putnam Hospital
+		Samaritan Medical Center
+		Northern Dutchess Hospital
+		Nicholas H. Noyes Memorial Hospital
+		New York - Presbyterian Hospital
+		Huntington Hospital
+		Richmond University Medical Center
+		Westchester Medical Center
+		The University of Vermont Health Network - Alice Hyde Medical Center
+		Stony Brook University Hospital
+		UPSTATE University Hospital at Community General
+		Cayuga Medical Center at Ithaca
+		Canton-Potsdam Hospital
+		Carthage Area Hospital Inc
+		HealthAlliance Hospital Broadway Campus
+		St Johns Episcopal Hospital So Shore
+		St. Mary's Healthcare
+		Long Island Jewish Medical Center
+		Flushing Hospital Medical Center
+		Brooks-TLC Hospital System, Inc.
+		Olean General Hospital
+		Jamaica Hospital Medical Center
+		Niagara Falls Memorial Medical Center
+		Wyckoff Heights Medical Center
+		Saratoga Hospital
+		Stony Brook Southampton Hospital
+		St Luke's Cornwall Hospital/Newburgh
+		Wyoming County Community Hospital
+		Arnot Ogden Medical Center
+		Rome Memorial Hospital, Inc
+		Brookdale Hospital Medical Center
+		White Plains Hospital Center
+		Claxton-Hepburn Medical Center
+		Good Samaritan Hospital Medical Center
+		Mercy Hospital of Buffalo
+		Sisters of Charity Hospital
+		Chenango Memorial Hospital Inc
+		Good Samaritan Hospital of Suffern
+		United Health Services Hospitals Inc. - Wilson Medical Center
+		Vassar Brothers Medical Center
+		St. Joseph's Hospital Health Center
+		Auburn Community Hospital
+		Newark-Wayne Community Hospital
+		United Memorial Medical Center North Street Campus
+		The Unity Hospital of Rochester
+		SBH Health System
+		SJRH - St Johns Division
+		Rochester General Hospital
+		Nathan Littauer Hospital
+		Samaritan Hospital
+		St. Charles Hospital
+		Mercy Hospital
+		St Catherine of Siena Hospital
+		Adirondack Medical Center-Saranac Lake Site
+		John R. Oishei Children's Hospital
+		Millard Fillmore Suburban Hospital
+		St Anthony Community Hospital
+		Northern Westchester Hospital
+		New York-Presbyterian Hospital - Columbia Presbyterian Center
+		Mount St. Mary's Hospital and Health Center
+		Sisters of Charity Hospital - St. Joseph Campus
+		New York-Presbyterian/Lower Manhattan Hospital
+		New York-Presbyterian Hospital - New York Weill Cornell Center
+		New York Presbyterian Hospital - Allen Hospital
+		The University of Vermont Health Network - Champlain Valley Physicians Hospital
+
+age_group: Age in years at time of discharge. TYPE: str
+        0 to 17
+        18 to 29
+        30 to 49
+        50 to 69
+        70 or Older
+
+zip_code_3_digits: The first three digits of the patient's zip code. TYPE: int
+        nan
+        100
+		113
+		112
+		109
+		115
+		125
+		104
+		118
+		OOS
+		111
+		105
+		138
+		133
+		117
+		110
+		144
+		146
+		145
+		108
+		114
+		103
+		101
+		121
+		120
+		123
+		128
+		122
+		132
+		131
+		130
+		134
+		135
+		127
+		147
+		148
+		139
+		137
+		116
+		119
+		136
+		124
+		107
+		129
+		141
+		140
+		143
+		106
+		149
+		142
+		126
+
+gender: Patient gender. TYPE: str
+        F - Female
+		M - Male
+		U - Unknown
+
+race: Patient race. TYPE: str
+        Other Race
+		Black/African American
+		White
+		Multi-racial
+
+ethnicity: Patient ethnicity. TYPE: str
+        Not Span/Hispanic
+		Spanish/Hispanic
+		Unknown
+		Multi-ethnic
+
+payment_typology_1: A description of the type of payment for this occurrence. TYPE: str
+        Private Health Insurance
+		Medicaid
+		Blue Cross/Blue Shield
+		Federal/State/Local/VA
+		Managed Care, Unspecified
+		Self-Pay
+		Medicare
+		Miscellaneous/Other
+
+payment_typology_2: A description of the type of payment for this occurrence. TYPE: str
+        Private Health Insurance
+		Medicaid
+		Blue Cross/Blue Shield
+		Federal/State/Local/VA
+		Managed Care, Unspecified
+		Self-Pay
+		Medicare
+		Miscellaneous/Other
+        nan - Unused or Unknown
+
+payment_typology_3: A description of the type of payment for this occurrence. TYPE: str
+        Private Health Insurance
+		Medicaid
+		Blue Cross/Blue Shield
+		Federal/State/Local/VA
+		Managed Care, Unspecified
+		Self-Pay
+		Medicare
+		Miscellaneous/Other
+        nan - Unused or Unknown
+
+length_of_stay: The total number of patient days at an acute level and/or other than acute care level (excluding leave of absence days). TYPE: str(int)
+        1-14, 17 (days)
