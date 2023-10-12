@@ -5,7 +5,7 @@ Full data dictionary for the original, broader dataset can be downloaded here: h
 ---------------
 
 hospital_service_area: A description of the Health Service Area (HSA) in which the hospital is located. Blank for enhanced de-identification records. TYPE: str
-        New York City
+        	New York City
 		Long Island
 		Hudson Valley
 		nan
@@ -16,7 +16,7 @@ hospital_service_area: A description of the Health Service Area (HSA) in which t
 		Southern Tier
 
 hospital_county: A description of the county in which the hospital is located. Blank for records with enhanced de-identification. TYPE: str
-        Manhattan
+        	Manhattan
 		Queens
 		Bronx
 		Kings
@@ -30,7 +30,7 @@ hospital_county: A description of the county in which the hospital is located. B
 		Albany
 		Onondaga
 		Orange
-        Sullivan
+        	Sullivan
 		Warren
 		Cortland
 		Steuben
@@ -68,7 +68,7 @@ hospital_county: A description of the county in which the hospital is located. B
 
 operating_certificate_number: The facility Operating Certificate Number as assigned by NYS Department of Health. Blank for records with enhanced de-identification. TYPE: str
 		nan
-        7002024
+        	7002024
 		7003000
 		7000008
 		7001009
@@ -182,7 +182,7 @@ operating_certificate_number: The facility Operating Certificate Number as assig
 
 permanent_facility_id: Permanent Facility Identifier. Blank for records with enhanced de-identification. TYPE: int
 		nan
-        001456
+        	001456
 		001626
 		001172
 		001294
@@ -304,7 +304,7 @@ permanent_facility_id: Permanent Facility Identifier. Blank for records with enh
 		000135
 
 facility_name: The name of the facility where services were performed based on the Permanent Facility Identifier (PFI), as maintained by the NYSDOH Division of Health Facility Planning. For records with enhanced de-identification, ‘Redacted for Confidentiality’ appears. TYPE: str
-        Mount Sinai Hospital
+        	Mount Sinai Hospital
 		Elmhurst Hospital Center
 		Lincoln Medical & Mental Health Center
 		Coney Island Hospital
@@ -427,15 +427,15 @@ facility_name: The name of the facility where services were performed based on t
 		The University of Vermont Health Network - Champlain Valley Physicians Hospital
 
 age_group: Age in years at time of discharge. TYPE: str
-        0 to 17
-        18 to 29
-        30 to 49
-        50 to 69
-        70 or Older
+        	0 to 17
+        	18 to 29
+        	30 to 49
+        	50 to 69
+        	70 or Older
 
 zip_code_3_digits: The first three digits of the patient's zip code. TYPE: str
-        nan
-        100
+        	nan
+        	100
 		113
 		112
 		109
@@ -487,24 +487,24 @@ zip_code_3_digits: The first three digits of the patient's zip code. TYPE: str
 		126
 
 gender: Patient gender. TYPE: str
-        F - Female
+        	F - Female
 		M - Male
 		U - Unknown
 
 race: Patient race. TYPE: str
-        Other Race
+        	Other Race
 		Black/African American
 		White
 		Multi-racial
 
 ethnicity: Patient ethnicity. TYPE: str
-        Not Span/Hispanic
+        	Not Span/Hispanic
 		Spanish/Hispanic
 		Unknown
 		Multi-ethnic
 
 payment_typology_1: A description of the type of payment for this occurrence. TYPE: str
-        Private Health Insurance
+        	Private Health Insurance
 		Medicaid
 		Blue Cross/Blue Shield
 		Federal/State/Local/VA
@@ -514,7 +514,7 @@ payment_typology_1: A description of the type of payment for this occurrence. TY
 		Miscellaneous/Other
 
 payment_typology_2: A description of the type of payment for this occurrence. TYPE: str
-        Private Health Insurance
+        	Private Health Insurance
 		Medicaid
 		Blue Cross/Blue Shield
 		Federal/State/Local/VA
@@ -522,10 +522,10 @@ payment_typology_2: A description of the type of payment for this occurrence. TY
 		Self-Pay
 		Medicare
 		Miscellaneous/Other
-        nan - Unused or Unknown
+        	nan - Unused or Unknown
 
 payment_typology_3: A description of the type of payment for this occurrence. TYPE: str
-        Private Health Insurance
+        	Private Health Insurance
 		Medicaid
 		Blue Cross/Blue Shield
 		Federal/State/Local/VA
@@ -533,21 +533,21 @@ payment_typology_3: A description of the type of payment for this occurrence. TY
 		Self-Pay
 		Medicare
 		Miscellaneous/Other
-        nan - Unused or Unknown
+        	nan - Unused or Unknown
 
 length_of_stay: The total number of patient days at an acute level and/or other than acute care level (excluding leave of absence days). TYPE: int
-        1
-        2
-        3
-        4
-        5
-        6
-        7
-        8
-        9
-        10
-        11
-        12
-        13
-        14
-        17
+        	1
+        	2
+        	3
+	        4
+        	5
+        	6
+        	7
+        	8
+        	9
+        	10
+        	11
+        	12
+        	13
+        	14
+        	17
