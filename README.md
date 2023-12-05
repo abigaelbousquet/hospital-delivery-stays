@@ -2,14 +2,14 @@
 This project follows the complete supervised ML pipeline to create a regression model for predicting length of stay for new mothers delivering in a hospital. This is based on public hospital discharge data (2021) from the NY DOH.
 
 ## Dataset
-Original Dataset: https://health.data.ny.gov/Health/Hospital-Inpatient-Discharges-SPARCS-De-Identified/tg3i-cinn  
-Final Dataset (the relevant subset of the above): ./data/planned_deliveries.csv  
-Data Dictionary for Final Dataset: ./data/DataDictionaryPlannedDeliveries.txt
+**Original Dataset:** https://health.data.ny.gov/Health/Hospital-Inpatient-Discharges-SPARCS-De-Identified/tg3i-cinn  
+**Final Dataset** (the relevant subset of the above): ./data/planned_deliveries.csv  
+**Data Dictionary for Final Dataset:** ./data/DataDictionaryPlannedDeliveries.txt
 
 ## Dependencies
 Please see ./data1030project.yml for the complete list of dependencies.
 
-Key Dependencies:
+**Key Dependencies:**
 - python=3.11.4
 - scikit-learn=1.2.2
 - pandas=2.0.3
